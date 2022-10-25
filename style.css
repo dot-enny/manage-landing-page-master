@@ -1,0 +1,170 @@
+:root {
+    --clr-Bright-Red: hsl(12, 88%, 59%);
+    --clr-Dark-Blue: hsl(228, 39%, 23%);
+    --clr-Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --clr-Very-Dark-Blue: hsl(233, 12%, 13%);
+    --clr-Very-Pale-Red: hsl(13, 100%, 96%);
+    --clr-Vary-Light-Gray: hsl(0, 0%, 98%);
+    
+    --fs-xl: 2.8rem;
+    --fs-lg: 2.2rem;
+    --fs-md: 1.2rem;
+    --fs-sm: 1.1rem;
+    --fs-xs: 0.9rem;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 320px;
+    max-width: 500px;
+}
+h1, h2, h3 .topic {
+    color: var(--clr-Dark-Blue);
+}
+p {
+    color: var(--clr-Dark-Grayish-Blue);
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: url(/images/bg-tablet-pattern.svg) no-repeat;
+    background-size: 120%;
+    background-position: 3rem -3rem;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 1em;
+}
+.illustration {
+    width: 100%;
+}
+.intro {
+    text-align: center;
+}
+.intro h1 {
+    font-size: var(--fs-xl);
+}
+.intro p {
+    font-size: var(--fs-md);
+    margin: 0.5em 0 2em;
+}
+.orange-pill {
+    background-color: var(--clr-Bright-Red);
+    color: white;
+    font-size: var(--fs-xs);
+    padding: 1em 2em;
+    border: none;
+    border-radius: 2em;
+}
+.orange-pill a {
+    color: white;
+}
+main > div {
+    background: url(/images/bg-tablet-pattern.svg) no-repeat;
+    background-size: contain;
+    background-position: 14em 5em;
+}
+.whats-different {
+    padding-block: 6em 3em;
+}
+.whats-different .brief {
+    text-align: center;
+    margin-bottom: 3em;
+}
+.whats-different .brief h2 {
+    font-size: var(--fs-lg);
+    margin-bottom: 0.4em;
+}
+.whats-different p {
+    font-size: var(--fs-sm);
+}
+.topic {
+    margin-bottom: 2em;
+}
+.topic h3 {
+    background-color: var(--clr-Very-Pale-Red);
+    padding: 0.6em 0;
+    margin-bottom: 1em;
+}
+.client-testimonies {
+    text-align: center;
+    padding-block: 0 2em;
+}
+.client-testimonies h2 {
+    font-size: var(--fs-lg);
+}
+.client-photo {
+    width: 22%;
+    padding-block: 3em 2em;
+}
+.client-name {
+    color: var(--clr-Dark-Blue);
+    font-size: var(--fs-md);
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.client-testimonies p {
+    font-size: var(--fs-sm);
+}
+.testimony-slide {
+    margin-block: 3em 2em;
+}
+.testimony-slide input {
+    width: 2.5%;
+}
+section.get-started {
+    background: var(--clr-Bright-Red) url(/images/bg-simplify-section-mobile.svg) no-repeat;
+    text-align: center;
+    padding: 6em 0;
+}
+section.get-started h1 {
+    color: white;
+    font-size: var(--fs-xl);
+    margin-bottom: 0.6em;
+}
+section.get-started button {
+    background-color: white;
+}
+section.get-started button a {
+    color: var(--clr-Bright-Red);
+}
+footer {
+    background-color: var(--clr-Very-Dark-Blue);
+    padding: 2em 1.3em;
+}
+.search-inbox {
+    background-color: white;
+}
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-block: 2em;
+}
+.bottom-nav ul {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-nav ul a {
+    color: white;
+    padding-block: 0.4em;
+}
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+footer .logo {
+    text-align: center;
+    margin-block: 2em;
+}
+.copyright {
+    color: var(--clr-Dark-Grayish-Blue);
+    font-size: var(--fs-xs);
+    text-align: center;
+}
