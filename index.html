@@ -8,90 +8,120 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="menu">
+    <div>
+        <header>
             <img src="/images/logo.svg" alt="logo" class="logo">
-            <img src="/images/icon-hamburger.svg" alt="icon-menu" class="icon-menu">
-        </div>
-        <img src="/images/illustration-intro.svg" alt="illustration" class="illustration">
-    </header>
-
+            <nav class="desktop top-nav">
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+            <img src="/images/icon-hamburger.svg" alt="icon-menu" class="mobile icon-menu">
+            <button class="desktop orange-pill get-started"><a href="#">Get Started</a></button>
+        </header>
+        <img src="/images/illustration-intro.svg" alt="illustration" class="mobile illustration">
+    </div>
+    
     <main>
-        <div class="div-main">
+        <div>
             <section class="intro">
-                <h1>Bring everyone <br class="mobile"> together to build <br class="mobile"> better products.</h1>
-                <p>Manage makes it simple for software <br class="mobile"> teams to plan day-to-day
-                tasks while <br class="mobile"> keeping the larger team goals in view.</p>
-                <button class="orange-pill get-started"><a href="#">Get Started</a></button>
+                <img src="/images/illustration-intro.svg" alt="illustration" class="desktop illustration">
+                <div class="intro-text">
+                    <h1>Bring everyone <br> together to build <br> better products.</h1>
+                    <p>Manage makes it simple for software <br class="mobile"> teams <br class="desktop"> to plan day-to-day
+                    tasks while <br class="mobile"> keeping the <br class="desktop"> larger team goals in view.</p>
+                    <button class="orange-pill get-started"><a href="#">Get Started</a></button>
+                </div>
             </section>
             <section class="whats-different">
                 <div class="brief">
-                    <h2>What’s different <br class="mobile"> about Manage?</h2>
+                    <h2>What’s different <br class="mobile"> about <br class="desktop"> Manage?</h2>
                     <p>
-                        Manage provides all the functionality your <br class="mobile">
-                        team needs, without the complexity. Our <br class="mobile">
-                        software is tailor-made for modern digital <br class="mobile">
+                        Manage provides all the functionality your <br>
+                        team needs, without the complexity. Our <br>
+                        software is tailor-made for modern digital <br>
                         product teams.
                     </p>
                 </div>
-                <div class="topic">
-                    <h3><span class="number orange-pill">01</span> <span class="topic-head">Track company-wide progress</span></h3>
-                    <p>
-                        See how your day-to-day tasks fit into the wider <br class="mobile">
-                        vision. Go from tracking progress at the milestone <br class="mobile">
-                        level all the way done to the smallest of details. <br class="mobile">
-                        Never lose sight of the bigger picture again.
-                    </p>
-                </div>
-                <div class="topic">
-                    <h3><span class="number orange-pill">02</span> <span class="topic-head">Advanced built-in reports</span></h3>
-                    <p>
-                        Set internal delivery estimates and track progress toward company
-                        goals. Our customisable dashboard helps you build out the reports
-                        you need to keep key stakeholders informed.
-                    </p>
-                </div>
-                <div class="topic">
-                    <h3><span class="number orange-pill">03</span> <span class="topic-head">Everything you need in one place</span></h3>
-                    <p>
-                        Stop jumping from one service to another to communicate, store files,
-                        track tasks and share documents. Manage offers an all-in-one team
-                        productivity solution.
-                    </p>
+                <div class="topics">
+                    <div class="topic">
+                        <h3><span class="number orange-pill">01</span> <span class="topic-head">Track company-wide progress</span></h3>
+                        <p>
+                            See how your day-to-day tasks fit into the wider <br class="mobile">
+                            vision. <br class="desktop"> Go from tracking progress at the milestone <br class="mobile">
+                            level all the <br class="desktop"> way done to the smallest of details. <br class="mobile">
+                            Never lose sight of <br class="desktop"> the bigger picture again.
+                        </p>
+                    </div>
+                    <div class="topic">
+                        <h3><span class="number orange-pill">02</span> <span class="topic-head">Advanced built-in reports</span></h3>
+                        <p>
+                            Set internal delivery estimates and track progress <br class="mobile"> toward <br class="desktop"> company
+                            goals. Our customisable <br class="mobile"> dashboard helps you <br class="desktop"> build out the reports
+                            you <br class="mobile"> need to keep key stakeholders <br class="desktop"> informed.
+                        </p>
+                    </div>
+                    <div class="topic">
+                        <h3><span class="number orange-pill">03</span> <span class="topic-head">Everything you need in one place</span></h3>
+                        <p>
+                            Stop jumping from one service to another to <br> communicate, store files,
+                            track tasks and share <br> documents. Manage offers an all-in-one team <br>
+                            productivity solution.
+                        </p>
+                    </div>
                 </div>
             </section>
         </div>
 
         <section class="client-testimonies">
-            <div class="testimony">
-                <h2>What they’ve said</h2>
-                <img src="/images/avatar-ali.png" class="client-photo" alt="client-photo">
-                <div class="client-name">Ali Bravo</div>
-                <p>
-                    “We have been able to cancel so many other subscriptions since using
-                    Manage. There is no more cross-channel confusion and everyone is much
-                    more focused.”
-                </p>
-                <div class="testimony-slide">
-                    <input type="radio" name="slide">
-                    <input type="radio" name="slide">
-                    <input type="radio" name="slide">
-                    <input type="radio" name="slide">
+            <h2>What they’ve said</h2>
+            <div class="testimony desktop">
+                <img src="/images/avatar-anisha.png" class="client-photo" alt="client-photo">
+                <div class="client-name">Anisha Li</div>
+                <p>“Manage has supercharged our team’s workflow. The <br class="desktop"> ability to maintain 
+                    visibility on larger milestones at all times <br class="desktop"> keeps everyone motivated.”</p>            
                 </div>
-                <button class="get-started orange-pill"><a href="#">Get Started</a></button>
+                <div class="testimony">
+                    <img src="/images/avatar-ali.png" class="client-photo" alt="client-photo">
+                    <div class="client-name">Ali Bravo</div>
+                    <p>
+                        “We have been able to cancel so many <br class="mobile"> other subscriptions <br class="desktop"> since using
+                        Manage. <br class="mobile"> There is no more cross-channel <br class="desktop"> confusion <br class="mobile"> and everyone is much
+                        more focused.”
+                    </p>
+                </div>
+            <div class="testimony desktop">
+                <img src="/images/avatar-richard.png" alt="client-photo" class="client-photo">
+                <div class="client-name">Richard Watts</div>
+                <p>“Manage allows us to provide structure and process. <br class="desktop"> It keeps us organized 
+                and focused. I can’t stop recommending <br class="desktop"> them to everyone I talk to!”</p>              
             </div>
         </section>
-
+        
+        <div style="text-align: center; padding-block: 0 5em;">
+            <div class="testimony-slide mobile">
+                <input type="radio" name="slide">
+                <input type="radio" name="slide">
+                <input type="radio" name="slide">
+                <input type="radio" name="slide">
+            </div>
+            <button class="get-started orange-pill"><a href="#">Get Started</a></button>
+        </div>
+        
         <section class="get-started">
-            <h1>Simplify how <br class="mobile"> your team works <br class="mobile"> today.</h1>
+            <h1>Simplify how <br class="mobile"> your team <br class="desktop"> works <br class="mobile"> today.</h1>
             <button class="get-started orange-pill"><a href="#">Get Started</a></button>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div>       
             <input type="search" placeholder="Updates in your inbox..." class="orange-pill search-inbox">
-            <button class="go orange-pill">Go</button>
+            <button class="go orange-pill">GO</button>
         </div>
         <nav class="bottom-nav">
             <ul>
