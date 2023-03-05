@@ -79,35 +79,45 @@
 
         <section class="client-testimonies">
             <h2>What they’ve said</h2>
-            <div class="testimony desktop">
-                <img src="/images/avatar-anisha.png" class="client-photo" alt="client-photo">
-                <div class="client-name">Anisha Li</div>
-                <p>“Manage has supercharged our team’s workflow. The <br class="desktop"> ability to maintain 
-                    visibility on larger milestones at all times <br class="desktop"> keeps everyone motivated.”</p>            
+            <div class="carousel">
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="testimony carousel__slide current-slide">
+                            <img src="/images/avatar-anisha.png" class="client-photo" alt="client-photo">
+                            <div class="client-name">Anisha Li</div>
+                            <p>
+                                “Manage has supercharged our team’s workflow. The ability to maintain 
+                                visibility on larger milestones at all times keeps everyone motivated.”
+                            </p>            
+                        </li>
+                        <li class="testimony carousel__slide">
+                            <img src="/images/avatar-ali.png" class="client-photo" alt="client-photo">
+                            <div class="client-name">Ali Bravo</div>
+                            <p>
+                                “We have been able to cancel so many other subscriptions since using
+                                Manage. There is no more cross-channel confusion and everyone is much
+                                more focused.”
+                            </p>
+                        </li>
+                        <li class="testimony carousel__slide">
+                            <img src="/images/avatar-richard.png" alt="client-photo" class="client-photo">
+                            <div class="client-name">Richard Watts</div>
+                            <p>
+                                “Manage allows us to provide structure and process. It keeps us organized 
+                                and focused. I can’t stop recommending them to everyone I talk to!”
+                            </p>              
+                        </li>
+                    </ul>
                 </div>
-                <div class="testimony">
-                    <img src="/images/avatar-ali.png" class="client-photo" alt="client-photo">
-                    <div class="client-name">Ali Bravo</div>
-                    <p>
-                        “We have been able to cancel so many <br class="mobile"> other subscriptions <br class="desktop"> since using
-                        Manage. <br class="mobile"> There is no more cross-channel <br class="desktop"> confusion <br class="mobile"> and everyone is much
-                        more focused.”
-                    </p>
-                </div>
-            <div class="testimony desktop">
-                <img src="/images/avatar-richard.png" alt="client-photo" class="client-photo">
-                <div class="client-name">Richard Watts</div>
-                <p>“Manage allows us to provide structure and process. <br class="desktop"> It keeps us organized 
-                and focused. I can’t stop recommending <br class="desktop"> them to everyone I talk to!”</p>              
             </div>
         </section>
         
         <div style="text-align: center; padding-block: 0 5em;">
-            <div class="testimony-slide mobile">
-                <input type="radio" name="slide">
-                <input type="radio" name="slide">
-                <input type="radio" name="slide">
-                <input type="radio" name="slide">
+            <div class="mobile dots-nav">
+                <span class="dot current-slide"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
             </div>
             <button class="get-started orange-pill"><a href="#">Get Started</a></button>
         </div>
@@ -146,5 +156,7 @@
         <div class="logo"><img src="/images/logo copy.svg" alt="logo"></div>
         <div class="copyright">Copyright 2020. All Rights Reserved</div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
