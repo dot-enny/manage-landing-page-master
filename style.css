@@ -165,6 +165,7 @@ main > div {
     margin: 0.3em;
     border: 1.5px solid var(--clr-Bright-Red);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 
@@ -304,12 +305,23 @@ footer .logo {
         align-items: flex-start;
     }
     .client-testimonies {
-        display: grid;
-        grid-template-columns: repeat(1fr, 3);
-        padding-block: 0 6em;
+        /* display: grid; */
+        /* grid-template-columns: repeat(1fr, 3); */
+        /* padding-block: 0 6em; */
     }
     .client-testimonies h2 {
-        grid-column: span 3;
+        /* grid-column: span 3; */
+    }
+    .carousel__track-container {
+        overflow-x: auto;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .carousel__track-container::-webkit-scrollbar {
+        display: none;
+    } 
+    .carousel__slide {
+        width: 30%;
     }
     section.get-started {
         display: flex;
